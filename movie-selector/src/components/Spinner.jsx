@@ -1,11 +1,10 @@
-import IconWithLabel from './IconWithLabel';
+import React from 'react';
+import './Spinner.css';
 
 const Spinner = () => {
     return (
-        <div id="spinner-container">
-            <IconWithLabel id="spinner-icon" classes="fa-solid fa-spinner fa-3x fa-spin" />
-        </div>
-    );
+    <div className="spinner"></div>
+  );
 };
 
 export default Spinner;
